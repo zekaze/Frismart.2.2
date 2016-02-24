@@ -25,23 +25,26 @@
               Header
   ============================== -->
 
-    <header>
-      <nav>
+
+  <header id="header">
+      <nav class="container">
         <button type="button" id="menu-toggle" class="fa fa-bars fa-lg"></button>
       </nav>
-    </header>
+  </header>
 
   <!-- =========================
           Section recherche
   ============================== -->
 
     <section id="section-recherche">
-        <div class="container">
-          <div class="heading text-center">
-            <h1>Lorem ipsum dolor sit amet</h1>
-            <p>Mauris sapien nisi, sollicitudin vitae fermentum quis, sodales eget mauris.</p>
-          </div>
+      <!-- Rajouter la classe "pub" à la section-recherche pour pouvoir ajouter la bannière pub -->
+      <!--<div class="banniere-pub" style="background-image: url('img/1800x450.png')"></div>-->
+      <div class="heading text-center">
+        <h1>Lorem ipsum dolor sit amet</h1>
+        <p>Mauris sapien nisi, sollicitudin vitae fermentum quis, sodales eget mauris.</p>
+      </div>
 
+      <div class="container">
           <div class="row">
             <form action="" class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2">
               <input required autocomplete="off" id="search-name" class="col-xs-12 col-sm-5" type="text" name="name" placeholder="Qui, quoi : hôtels, restaurants...">
@@ -49,8 +52,7 @@
               <button type="button" class="btn col-xs-12 col-sm-2 "><i class="hidden-xs fa fa-search fa-lg"></i><span class="visible-xs">Rechercher <i class="fa fa-search"></i></span></button>
             </form>
           </div>
-
-        </div>
+      </div>
     </section>
 
   <!-- =========================
@@ -58,10 +60,11 @@
   ============================== -->
 
     <section id="section-meilleur-frismart">
+      <div class="heading">
+        <h2>Le meilleur de Frismart</h2>
+        <p>Suspendisse varius suscipit imperdiet. Etiam lobortis nibh tincidunt.</p>
+      </div>
       <div class="container">
-        <div class="text-center">
-          <h2>Le meilleur de Frismart</h2>
-        </div>
         <div class="row categories">
           <div class="col-xs-6 col-sm-3" style="background-image: url('img/restaurant.jpg')">
             <a href="#">
@@ -121,7 +124,172 @@
   <!-- =========================
         Section à la une
   ============================== -->
+    <section id="section-a-la-une">
+      <div class="heading">
+        <h2>&Agrave; la une</h2>
+        <p>Donec varius risus a nunc volutpat, vitae auctor magna aliquam.</p>
+      </div>
+      <div class="container entreprises">
+        <div class="col-sm-4" >
+          <div class="info-entreprise" style="background: url('img/restaurant.jpg')">
+            <a href="#">
+              <h3>Nom de l'entreprise</h3>
+              <p>Phasellus malesuada, Ullamcorper sem</p>
+              <div><i class="fa fa-phone fa-lg"></i> (+241) 00 00 00</div>
+            </a>
+            <footer>
+              <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
 
+              <div class="note">4.8</div>
+
+              <div class="favoris pull-right">
+                <i class="fa fa-heart"></i>
+              </div>
+            </footer>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="info-entreprise" style="background: url('img/restaurant.jpg')">
+            <a href="#">
+              <h3>Nom de l'entreprise</h3>
+              <p>Phasellus malesuada, Ullamcorper sem</p>
+              <div><i class="fa fa-phone fa-lg"></i> (+241) 00 00 00</div>
+            </a>
+            <footer>
+              <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+
+              <div class="note">4.8</div>
+
+              <div class="favoris pull-right">
+                <i class="fa fa-heart"></i>
+              </div>
+            </footer>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="info-entreprise" style="background: url('img/restaurant.jpg')">
+            <a href="#">
+              <h3>Nom de l'entreprise</h3>
+              <p>Phasellus malesuada, Ullamcorper sem</p>
+              <div><i class="fa fa-phone fa-lg"></i> (+241) 00 00 00</div>
+            </a>
+            <footer>
+              <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+
+              <div class="note">4.8</div>
+
+              <div class="favoris pull-right">
+                <i class="fa fa-heart"></i>
+              </div>
+            </footer>
+          </div>
+        </div>
+      </div>
+      <div class="container entreprises">
+        <div class="col-sm-4" >
+          <div class="info-entreprise" style="background: url('img/restaurant.jpg')">
+            <a href="#">
+              <h3>Nom de l'entreprise</h3>
+              <p>Phasellus malesuada, Ullamcorper sem</p>
+              <div><i class="fa fa-phone fa-lg"></i> (+241) 00 00 00</div>
+            </a>
+            <footer>
+              <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+
+              <div class="note">4.8</div>
+
+              <div class="favoris pull-right">
+                <i class="fa fa-heart"></i>
+              </div>
+            </footer>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="info-entreprise" style="background: url('img/restaurant.jpg')">
+            <a href="#">
+              <h3>Nom de l'entreprise</h3>
+              <p>Phasellus malesuada, Ullamcorper sem</p>
+              <div><i class="fa fa-phone fa-lg"></i> (+241) 00 00 00</div>
+            </a>
+            <footer>
+              <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+
+              <div class="note">4.8</div>
+
+              <div class="favoris pull-right">
+                <i class="fa fa-heart"></i>
+              </div>
+            </footer>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="info-entreprise" style="background: url('img/restaurant.jpg')">
+            <a href="#">
+              <h3>Nom de l'entreprise</h3>
+              <p>Phasellus malesuada, Ullamcorper sem</p>
+              <div><i class="fa fa-phone fa-lg"></i> (+241) 00 00 00</div>
+            </a>
+            <footer>
+              <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+
+              <div class="note">4.8</div>
+
+              <div class="favoris pull-right">
+                <i class="fa fa-heart"></i>
+              </div>
+            </footer>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  <!-- =========================
+        Section text-video
+  ============================== -->
+    <section id="section-text-video">
+      <div class="container">
+        <div class="col-sm-6">
+          <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h1>
+        </div>
+        <div class="col-sm-6 col-sm-offset-6" style="background: url('')"></div>
+      </div>
+    </section>
   <!-- =========================
               Footer
   ============================== -->
