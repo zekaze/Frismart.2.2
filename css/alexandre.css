@@ -6,6 +6,7 @@ header nav #menu-toggle:hover, header nav #menu-toggle:focus { border-color: #04
 #section-recherche { height: 400px; background: #eee; background-size: cover; position: relative; }
 #section-recherche .heading h1 { font-size: 50px; text-transform: uppercase; margin-bottom: 5px; }
 #section-recherche .heading p { font-size: 20px; }
-#section-recherche .heading form input { border: solid 1px #eee; }
+#section-recherche form input[type='text'] { border: solid 1px #ddd; display: inline-block; vertical-align: top; padding: 10px; }
+#section-recherche form button { padding: 10px; }
 
 /*# sourceMappingURL=alexandre.css.map */
