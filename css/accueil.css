@@ -32,11 +32,21 @@ section .heading { text-align: center; padding: 20px 0; }
 #section-a-la-une .container footer .note { font-size: 12px; border-radius: 50px; background: #0481b5; color: #fff; }
 #section-a-la-une .container footer .favoris { font-size: 16px; color: #d3250e; }
 
-#section-text-video { position: relative; }
+.section-text-image { position: relative; padding-bottom: 30px; }
+.section-text-image .container .text { padding: 100px 0; }
+.section-text-image .container .image { position: absolute; height: 100%; width: 50%; left: 0; top: 0; background-repeat: no-repeat; background-size: cover; background-position: center; }
+
+.section-video-text { position: relative; padding-bottom: 30px; }
+.section-video-text .container .text { padding: 100px 0; }
+.section-video-text .container .image { position: absolute; height: 100%; width: 50%; left: 0; top: 0; background-repeat: no-repeat; background-size: cover; background-position: center; }
 
 @media (max-width: 768px) { #section-recherche .heading h1 { font-size: 30px; line-height: 30px; text-transform: uppercase; margin-bottom: 5px; }
   #section-recherche .heading p { font-size: 16px; }
   #section-recherche form input:first-of-type { padding-left: 10px; -webkit-border-radius: 0; -moz-border-radius: 0; -o-border-radius: 0; -ms-border-radius: 0; border-radius: 0; }
-  #section-recherche form button { -webkit-border-radius: 0; -moz-border-radius: 0; -o-border-radius: 0; -ms-border-radius: 0; border-radius: 0; } }
+  #section-recherche form button { -webkit-border-radius: 0; -moz-border-radius: 0; -o-border-radius: 0; -ms-border-radius: 0; border-radius: 0; }
+  .section-text-image .container .text { padding: 10px 0; }
+  .section-text-image .container .image { position: relative; min-height: 400px; width: 100%; left: 0; top: 0; background-repeat: no-repeat; background-size: contain; background-position: center center; }
+  .section-video-text .container .text { padding: 10px 0; }
+  .section-video-text .container .image { position: relative; height: 300px; width: 100%; left: 0; top: 0; background-repeat: no-repeat; background-size: contain; background-position: center center; } }
 
 /*# sourceMappingURL=accueil.css.map */
