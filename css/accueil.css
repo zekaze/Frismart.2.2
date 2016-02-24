@@ -11,9 +11,15 @@ header nav #menu-toggle:hover, header nav #menu-toggle:focus { border-color: #04
 #section-recherche form input:first-of-type { padding-left: 20px; border-right: none; -webkit-border-radius: 50px 0 0 50px; -moz-border-radius: 50px 0 0 50px; -o-border-radius: 50px 0 0 50px; -ms-border-radius: 50px 0 0 50px; border-radius: 50px 0 0 50px; }
 #section-recherche form button { padding: 10px; -webkit-border-radius: 0 50px 50px 0; -moz-border-radius: 0 50px 50px 0; -o-border-radius: 0 50px 50px 0; -ms-border-radius: 0 50px 50px 0; border-radius: 0 50px 50px 0; }
 
+#section-meilleur-frismart .categories .col-sm-3 { max-height: 250px; padding: 10px; overflow: hidden; text-align: center; background-size: cover; background-position: center; height: 180px; position: relative; }
+#section-meilleur-frismart .categories .col-sm-3 a { text-decoration: none; color: #fff; position: absolute; height: 100%; width: 100%; padding: 40px 10px 0; left: 0; top: 0; z-index: 2; }
+#section-meilleur-frismart .categories .col-sm-3 a h4 { text-transform: capitalize; font-weight: 700; }
+#section-meilleur-frismart .categories .col-sm-3 a p { font-size: 14px; }
+#section-meilleur-frismart .categories .col-sm-3:after { content: ''; display: block; position: absolute; width: 100%; height: 100%; z-index: 1; top: 0; left: 0; background: rgba(0, 0, 0, 0.5); }
+
 @media (max-width: 768px) { #section-recherche .heading h1 { font-size: 30px; line-height: 30px; text-transform: uppercase; margin-bottom: 5px; }
   #section-recherche .heading p { font-size: 16px; }
   #section-recherche form input:first-of-type { padding-left: 10px; -webkit-border-radius: 0; -moz-border-radius: 0; -o-border-radius: 0; -ms-border-radius: 0; border-radius: 0; }
   #section-recherche form button { -webkit-border-radius: 0; -moz-border-radius: 0; -o-border-radius: 0; -ms-border-radius: 0; border-radius: 0; } }
 
-/*# sourceMappingURL=alexandre.css.map */
+/*# sourceMappingURL=accueil.css.map */
