@@ -39,10 +39,17 @@ header{
     p{
       font-size: 20px;
     }
-    form{
-      input{
-        border: solid 1px #eee;
-      }
+  }
+
+  form{
+    input[type='text']{
+      border: solid 1px #ddd;
+      display: inline-block;
+      vertical-align: top;
+      padding: 10px;
+    }
+    button{
+      padding: 10px;
     }
   }
 }
