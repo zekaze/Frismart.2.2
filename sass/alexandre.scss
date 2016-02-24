@@ -1,7 +1,6 @@
 $bleu_frismart:#0481b5;
 $noir: #393939;
 
-
 @import "mixins";
 
 
@@ -25,7 +24,7 @@ header{
   }
 }
 #section-recherche{
-  height: 400px;
+  padding: 60px 0 100px;
   background: #eee;
   background-size: cover;
   position: relative;
@@ -33,6 +32,7 @@ header{
   .heading{
     h1{
       font-size: 50px;
+      line-height: 49px;
       text-transform: uppercase;
       margin-bottom: 5px;
     }
@@ -42,14 +42,49 @@ header{
   }
 
   form{
+
+    padding: 10px;
+    background: rgba(#000,0.8);
     input[type='text']{
       border: solid 1px #ddd;
       display: inline-block;
       vertical-align: top;
       padding: 10px;
     }
+    input:first-of-type{
+      padding-left: 20px;
+      border-right: none;
+      @include border-radius(50px 0 0 50px);
+    }
     button{
       padding: 10px;
+      @include border-radius(0 50px 50px 0);
+    }
+  }
+}
+
+@media (max-width: 768px) {
+
+  #section-recherche{
+    .heading{
+      h1{
+        font-size: 30px;
+        line-height: 30px;
+        text-transform: uppercase;
+        margin-bottom: 5px;
+      }
+      p{
+        font-size: 16px;
+      }
+    }
+    form{
+      input:first-of-type{
+        padding-left: 10px;
+        @include border-radius(0);
+      }
+      button{
+        @include border-radius(0);
+      }
     }
   }
 }
