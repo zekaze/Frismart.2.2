@@ -1,0 +1,11 @@
+header { background-color: #393939; }
+header nav { padding: 10px 0; }
+header nav #menu-toggle { color: #fff; padding: 10px; cursor: pointer; -webkit-border-radius: 5px; -moz-border-radius: 5px; -o-border-radius: 5px; -ms-border-radius: 5px; border-radius: 5px; border: solid 1px #393939; background: #393939; }
+header nav #menu-toggle:hover, header nav #menu-toggle:focus { border-color: #0481b5; }
+
+#section-recherche { height: 400px; background: #eee; background-size: cover; position: relative; }
+#section-recherche .heading h1 { font-size: 50px; text-transform: uppercase; margin-bottom: 5px; }
+#section-recherche .heading p { font-size: 20px; }
+#section-recherche .heading form input { border: solid 1px #eee; }
+
+/*# sourceMappingURL=alexandre.css.map */
